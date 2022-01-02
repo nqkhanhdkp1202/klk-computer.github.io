@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/chitietsp.css">
+    <link rel="shortcut icon" href="/images/Icon/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>KLK's Computers- Hi-end PC & Laptop</title>
+</head>
+<body>
+
+    <!-- Hiệu ứng tuyết rơi -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+      
+    <!-- Header with search -->
+    <div class="header_withsearch">
+            <div class="header_logo" >
+                <a href="/">
+                    <img src="/images/Logo/newlogo.png" alt="" class="header_logo_img">
+                </a>
+            </div>
+            <div class="header_search">
+                <input type="text" placeholder="Search" class="header_search_input"> 
+                <a href="" id="search_link">
+                    <i class="fas fa-desktop"></i>
+                    By name <i>|</i> 
+                </a> 
+                <a href="" id="search_link">
+                    <i class="far fa-copyright"></i>
+                    By category <i>|</i>
+                </a>
+                <a href="" id="search_link">
+                    <i class="far fa-money-bill-alt"></i>
+                    By price
+                </a>
+            </div>
+            <div class="header_search_btn">
+                <a href="#">
+                    <i class="header_search_btn_icon fas fa-search"></i>
+                </a>
+            </div>   
+            <div class="header_cart" >
+                <a href="/giohang.html"><i data-count="3" class="header_cart_icon fas fa-shopping-cart"></i></a>
+                <p>Shopping-Cart</p>
+            </div>
+            <div class="header_account" >
+                <a href="/dangnhap.html"><i class="header_account_icon fas fa-user-circle"></i></a>
+                <p>Sign in / Sign up</p>
+            </div>
+            <div class="header_phone" >
+                <a href="#"><i class="header_phone_icon fas fa-phone"></i></a>
+                <p>(078)-3984721</p>
+            </div>
+    </div>
+
+    <!--Navigation -->
+
+    <div class="navigation">
+        <div id="wrapper-navigation">
+            <div class="header-grid">
+                    <div class="grid_row">
+                        <div class="header-grid_column-2-4">
+                            <ul class="header-list">
+                                <li><a href="/" class="navigation-font header-list">
+                                    <i class="fas fa-home"></i> HOME
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="header-grid_column-2-4">
+                            <ul class="header-list">
+                                <li class="dropdown">
+                                    <a href="/Laptop.html" class="dropbtn navigation-font">
+                                        <i class="fas fa-list"></i> PRODUCTS
+                                    </a>
+                                    <div class="dropdown-content">
+                                    <a class="dropdown-content-block" href="/Sale.html">Hot Products</a>
+                                    <a href="/PC.html">Hi-end PC</a>
+                                    <a href="/Laptop.html">Laptop Gaming</a>
+                                    <a href="/Monitor.html">Minotor</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="header-grid_column-2-4">
+                            <ul class="header-list">
+                                <li><a href="/news.html" class="navigation-font">
+                                    <i class="far fa-newspaper"></i> NEWS
+                                </a></li>
+                            </ul>
+                            
+                        </div>
+                        <div class="header-grid_column-2-4">
+                            <ul class="header-list">
+                                <li><a href="/Sale.html" class="navigation-font">
+                                    <i class="fas fa-tags"></i> SALE
+                                </a></li>
+                            </ul>
+                            
+                        </div>
+                        <div class="header-grid_column-2-4">
+                            <ul class="header-list">
+                                <li><a href="/aboutus.html" class="navigation-font">
+                                    <i class="fas fa-info-circle"></i> ABOUT
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- Extend Button + Icon Bar -->
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/khanh.quoc44/" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    </div>
+    <button id="page_btn" title="Lên đầu trang" >
+        <i class="page_btn_icon fas fa-chevron-up"></i>
+    </button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        document.getElementById("page_btn").style.display = "block";
+        } else {
+        document.getElementById("page_btn").style.display = "none";
+        }
+        }
+        
+        document.getElementById('page_btn').addEventListener("click", function(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        });
+    </script>
+    <div class="chat_btn" >
+        <a href="https://www.facebook.com/khanh.quoc44/" class="chat_btn_a">
+            <img class="chat_btn_a_img" src="/images/Icon/facebook-messenger-3691247-3073767.png">
+        </a>
+    </div>
+
+<!-- Breadcrum -->
+<div class="breadcrumb">
+    <ul class="breadcrumb-list">
+        <li class="breadcrumb-1">
+            <a href="/" >Home</a><span> ></span>
+        </li>
+        <li class="breadcrumb-2">
+            <a href="/Laptop.html">Laptop</a><span> ></span>
+        </li>
+        <li class="breadcrumb-3">Lenovo Legion 5 15</li>
+    </ul>
+</div>
+
+<!-- Banner -->
+<div id="wrapper-banner">
+    <div class="product-details-banner">
+        <img class="mySlides" src="/images/Banner/bannerMsi.png" style="width:100%">
+    </div>
+</div>
+
+<div id="wrapper">
+    <div class="headline">
+        <h2>Product Details</h2>
+    </div>
+</div>
+<hr style="width:50%;margin-left:auto;margin-right:auto">
+
+
+<div id="wrapper">
+    <div class="products-padding">
+    <h2 class="products-details-header">ASUS TUF Dash F15</h2>
+         
+    <div class="header-banner-grid">
+         <div class="grid_row">
+            <div class="grid_column-5-5">
+                <ul class="products-details-no-style">
+                    <li class="justify-text">
+                        <p>
+                            Hardware Specifications of ASUS TUF Dash F15 Gaming Laptop:
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Intel Core i7-11370H Quad-Core Processor (Turbo up to 4.8GHz)</li>
+                            <li>8GB DDR4 3200MHz RAM</li>
+                            <li>512GB PCIe NVMe SSD</li>
+
+                            <li>Nvidia GeForce RTX 3050 Ti 4GB DDR6 Graphics</li>
+                            <li>15.6 Inch Full HD IPS-Type 144Hz Refresh Rate Display with Adaptive Sync (62% sRGB, 280-nits)</li>
+                            <li>Windows 10 Home</li>
+
+                            <li>Battery Life up to 8 hours</li>
+                            <li>Sleek & slim design</li>
+                            <li>Excellent keyboard for typing & gaming</li>
+
+                            <li>Quiet fans</li>
+                            <li>Decent amount of ports (including fastest Thunderbolt 4)</li>
+                            <li>Great sounding speakers</li>
+                            <li>Long battery life</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid_column-5-5 ">
+                <ul class="products-details-no-style">
+                    <li><img src="/images/Product details/detailLaptop3.png" width="100%"></img></li>
+                    <li>
+                        <div class="products-details-price">
+                            <span class="home-products-price-old-price">899$</span>
+                            <span class="home-products-price-new-price">799$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <ul class="products-details-no-style">
+                            <li class="padding-item">
+                                <div class="product-details-button">
+                                    <a href="/giohang.html" class="button1">Buy Now</a>
+                                    <a href="/giohang.html" class="button2">Add to Shopping - Cart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> 
+    <h2 class="products-details-header2">Some details about ASUS TUF Dash F15 - Thin & Light Gaming Laptop</h2>
+
+    <div class="products-padding">
+    <div class="header-banner-grid">
+        <div class="grid_row">
+           <div class="grid_column-5-5 ">
+               <ul class="products-details-no-style">
+                   <li class="justify-text">
+                       <p>
+                        If you are looking for a thin and light budget gaming laptop, then Asus TUF Dash F15 is the best option right now under $1000. </p>
+                        <br>
+                        <p>
+                            Thin and light gaming laptops in budget price ranges are pretty rare, and the ones that are available cut many corners to achieve their slim profile at an affordable price tag, but the Asus TUF Dash F15 checks many right boxes and is a near-perfect gaming machine. 
+                       </p>
+                       <p>
+                        It is powered by an 11th Gen quad-core Intel i7 processor, which is less powerful than the 8-core CPU on Lenovo Legion 5 15 (our top pick) and 6-core CPU on IdeaPad Gaming 15 (runner up pick). But, the gaming performance that it delivers is right in line with them since it has an RTX 3050 Ti GPU inside.
+                     </p>
+                   </li>
+               </ul>
+           </div>
+           <div class="grid_column-5-5 ">
+               <img src="/images/Product details/moreDetailLaptop3.png" width="100%"></img>
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+
+<!-- Products -->
+<div id="wrapper">
+    <div class="headline">
+        <h2>Our New Products</h2>  
+    </div>
+    <div class="home">
+        <div class="home-products">
+            <div class="product-top">
+                <a href="/chitietsanpham.html">
+                    <img class="home-products-img" src="/images/PC/newPC6.png"></img>
+                </a>
+                <a class="buy-now" href="/giohang.html">Buy Now</a>
+                <div class="home-products-hot">
+                    <i class="fas fa-check"></i>
+                     NEW
+                </div>   
+            </div>
+                <div class="home-products-cat">PC</div>                    
+                <a href="/chitietsanpham.html">
+                    <h4 class="home-products-name">Ratchet M - I5 11400F - GT2060 - 16GB</h4>
+                </a>
+                <div class="home-products-price">
+                    <span class="home-products-price-new-price">700$</span>
+                </div>
+        </div>
+            <div class="home-products">
+                <div class="product-top">
+                    <a href="/chitietsanpham.html">
+                        <img class="home-products-img" src="/images/Monitor/newmonitor6.png"></img>
+                    </a>
+                    <a class="buy-now" href="/giohang.html">Buy Now</a>
+                    <div class="home-products-hot">
+                        <i class="fas fa-check"></i>
+                         NEW
+                    </div>  
+                </div>
+                    <div class="home-products-cat">Monitor</div>                    
+                    <a href="/chitietsanpham.html">
+                        <h4 class="home-products-name">Monitor Gaming Asus ROG STRIX XG27UQ IPS/ 4K/ 144Hz</h4>
+                    </a>
+                    <div class="home-products-price">
+                        <span class="home-products-price-new-price">500$</span>
+                    </div>
+            </div>
+            <div class="home-products">
+                <div class="product-top">
+                    <a href="/chitietsanpham.html">
+                        <img class="home-products-img" src="/images/Laptop/Laptop6.png"></img>
+                    </a>
+                    <a class="buy-now" href="/giohang.html">Buy Now</a>
+                    <div class="home-products-hot">
+                        <i class="fas fa-check"></i>
+                         NEW
+                    </div> 
+                </div>
+                    <div class="home-products-cat">PC</div>                    
+                    <a href="/chitietsanpham.html">
+                        <h4 class="home-products-name">Titan M - G6405 - GT1030 - 8GB</h4>
+                    </a> 
+                    <div class="home-products-price">
+                        <span class="home-products-price-new-price">450$</span>
+                    </div>
+            </div>
+            <div class="home-products">
+                <div class="product-top">
+                    <a href="/chitietsanpham.html">
+                        <img class="home-products-img" src="/images/PC/newPC8.png"></img>
+                    </a>
+                    <a class="buy-now" href="/giohang.html">Buy Now</a>
+                    <div class="home-products-hot">
+                        <i class="fas fa-check"></i>
+                         NEW
+                    </div> 
+                </div>
+                    <div class="home-products-cat">PC</div>                    
+                    <a href="/chitietsanpham.html">
+                        <h4 class="home-products-name">Volibear S - I8 11400F - GTX 1650Ti - 16GB</h4>
+                    </a>
+                    <div class="home-products-price">
+                        <span class="home-products-price-new-price">999$</span>
+                    </div>
+            </div>
+            <div class="home-products">
+                <div class="product-top">
+                    <a href="/chitietsanpham.html">
+                        <img class="home-products-img" src="/images/Laptop/Laptop7.png"></img>
+                    </a>
+                    <a class="buy-now" href="/giohang.html">Buy Now</a>
+                    <div class="home-products-hot">
+                        <i class="fas fa-check"></i>
+                         NEW
+                    </div>    
+                </div>
+                    <div class="home-products-cat">Laptop</div>                    
+                    <a href="/chitietsanpham.html">
+                        <h4 class="home-products-name">Laptop Asus X413JA 90NB0RC8 - I9 - 240hz - 16GB</h4>
+                    </a>
+                    <div class="home-products-price">
+                        <span class="home-products-price-new-price">1099$</span>
+                    </div>
+            </div>
+            <div class="home-products">
+                <div class="product-top">
+                    <a href="/chitietsanpham.html">
+                        <img class="home-products-img" src="/images/Laptop/Laptop8.png"></img>
+                    </a>
+                    <a class="buy-now" href="/giohang.html">Buy Now</a>
+                    <div class="home-products-hot">
+                        <i class="fas fa-check"></i>
+                         NEW
+                    </div>   
+                </div>
+                    <div class="home-products-cat">Laptop</div>                    
+                    <a href="/chitietsanpham.html">
+                        <h4 class="home-products-name">Laptop Asus Vivobook M513UA-L1240T - AMD Ryzen 7</h4>
+                    </a>
+                    <div class="home-products-price">
+                        <span class="home-products-price-new-price">1899$</span>
+                    </div>
+            </div>
+         </div>   
+        <!-- <div class="all-products">
+            <a href=""> See more </a>
+        </div>     -->
+</div>
+
+<!-- Group Logo -->
+<br>
+<div id="wrapper">
+    <div class="header-banner-grid">
+            <div class="grid_row">
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoAdata.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoGigabyte.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoHP.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoMsi.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoSynology.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoRoccat.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoThermaltake.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-grid_column-8-part">
+                    <ul class="header-list">
+                        <li>
+                            <div class="item-banner">
+                                <a href=""><img src="/images/Logo/logoRazer.png" alt="" class="img-logo"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div id="wrapper-footer">
+            <div class="grid">
+                <div class="grid_row">
+                    <div class="grid_column-5-5">
+                        <h3 class="footer_super_heading">Sign Up To Our Newsletter</h3>
+                        <ul class="footer-list">
+                            <li class="footer_super_heading2"><p>Be the first to hear about the latest offers.</p></li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-5-5">
+                        <div class ="footer_search_bar">
+                            <input type="text" placeholder="Your Email" class="search_text">
+                            <button style="border:none">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="grid_row">
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Infomation</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="/aboutus.html" class="footer-item_link">About Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Terms</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">PC Parts</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Add On Cards</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Hard Driver (Internal)</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Graphic Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Desktop PCs</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Custom PCs</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Severs</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">Tecs PCs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Laptops</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">MSI Series</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">DELL Series</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item_link">MAC Series</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading">Address</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <p class="footer-address">Address: 273 An Duong Vuong Str, District 5, Ho Chi Minh City</p>
+                            </li>
+                            <li class="footer-item">
+                                <p class="footer-address">Phone: <font color="#056ebe" >(078) 398 4721</font></p>
+                            </li>
+                            <li class="footer-item">
+                                <p class="footer-address">We are open: Monday-Sunday: 9:00 AM - 5:30 PM</p>
+                            </li>
+                            <li class="footer-item">
+                                <p class="footer-address">E-mail: <font color="#056ebe" >klkcomputer@gmail.com</font></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <hr width="100%">
+                <br>
+                <div class="grid_row">
+                    <div class="grid_column-3-3-3">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="https://www.facebook.com/khanh.quoc44" class="footer-icon_link"> 
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="https://www.instagram.com/__quockhanh__/" class="footer-icon_link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column-3-3-3">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <div class="footer-paidcard">
+                                    <img src="/images/Logo/paypal.png" alt="">
+                                    <img src="/images/Logo/visa.png" alt="">
+                                    <img src="/images/Logo/maestro.png" alt="">
+                                    <img src="/images/Logo/discover.png" alt="">
+                                    <img src="/images/Logo/american-express.png" alt="">
+                                </div>                            
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="grid_column-3-3-3">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <p class="footer-copyright">Copyright © 2021 By KLK Computer</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+    
